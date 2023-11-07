@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Qwigley&display=swap');
+.header{
+    margin: 0;
+    padding: 0;
+    position: sticky;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: rgba(0,0,0,.9);
+    color: white;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.navbar h3{
+    font-family: 'Cedarville Cursive', cursive;
+    margin-left: 15px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar ul li:hover{
+    opacity: 0.5;
+}
+
+.navbar ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;  
+}
+
+
+
+.humberger{
+    display: none;
+    position: absolute; 
+}
+
+.bar{
+   
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+@media screen and (max-width: 500px) {
+   
+    .humberger{
+        display: block;
+        right: 10px;
+        top: 15px;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: start;
+        height: inherit;
+
+
+    }
+
+    .navbar ul{
+       margin: 0px;
+       padding: 10px;
+        align-items: start;
+        flex-direction: column;  
+    }
+
+    .navbar ul li:hover{
+        opacity: 0.5;
+    }
+
+    .navbar ul li{
+        display: flex;
+    }
+
+    
+
+    
+
+    
+    
+  }

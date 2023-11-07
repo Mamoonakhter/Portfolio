@@ -1,0 +1,29 @@
+/* #about{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    
+} */
+
+#about{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    height:110vh;
+    color: white;
+}
+
+.profile_info{
+    position: relative;
+    top: 40%;
+    right: 30%;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 15px;
+}
+    
+
+
+
+
+
